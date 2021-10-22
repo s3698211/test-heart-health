@@ -1,0 +1,496 @@
+[1mdiff --git a/package-lock.json b/package-lock.json[m
+[1mindex f38cb34..2574243 100644[m
+[1m--- a/package-lock.json[m
+[1m+++ b/package-lock.json[m
+[36m@@ -1899,11 +1899,12 @@[m
+       "integrity": "sha512-INJYZQJP7g+IoDUh/475NlGiTeMfwTXUEr3tmRneckHIxNolGOW9CTq83S8cxq0CgJwwcMzMJFchxvlwe7Rk8Q=="[m
+     },[m
+     "@restart/hooks": {[m
+[31m-      "version": "0.3.27",[m
+[31m-      "resolved": "https://registry.npmjs.org/@restart/hooks/-/hooks-0.3.27.tgz",[m
+[31m-      "integrity": "sha512-s984xV/EapUIfkjlf8wz9weP2O9TNKR96C68FfMEy2bE69+H4cNv3RD4Mf97lW7Htt7PjZrYTjSC8f3SB9VCXw==",[m
+[32m+[m[32m      "version": "0.3.26",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@restart/hooks/-/hooks-0.3.26.tgz",[m
+[32m+[m[32m      "integrity": "sha512-7Hwk2ZMYm+JLWcb7R9qIXk1OoUg1Z+saKWqZXlrvFwT3w6UArVNWgxYOzf+PJoK9zZejp8okPAKTctthhXLt5g==",[m
+       "requires": {[m
+[31m-        "dequal": "^2.0.2"[m
+[32m+[m[32m        "lodash": "^4.17.20",[m
+[32m+[m[32m        "lodash-es": "^4.17.20"[m
+       }[m
+     },[m
+     "@rollup/plugin-node-resolve": {[m
+[36m@@ -2286,6 +2287,14 @@[m
+         "@babel/types": "^7.3.0"[m
+       }[m
+     },[m
+[32m+[m[32m    "@types/classnames": {[m
+[32m+[m[32m      "version": "2.3.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@types/classnames/-/classnames-2.3.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-zeOWb0JGBoVmlQoznvqXbE0tEC/HONsnoUNH19Hc96NFsTAwTXbTqb8FMYkru1F/iqp7a18Ws3nWJvtA1sHD1A==",[m
+[32m+[m[32m      "requires": {[m
+[32m+[m[32m        "classnames": "*"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "@types/eslint": {[m
+       "version": "7.2.12",[m
+       "resolved": "https://registry.npmjs.org/@types/eslint/-/eslint-7.2.12.tgz",[m
+[36m@@ -3858,11 +3867,6 @@[m
+       "resolved": "https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz",[m
+       "integrity": "sha1-aN/1++YMUes3cl6p4+0xDcwed24="[m
+     },[m
+[31m-    "bootstrap": {[m
+[31m-      "version": "5.0.1",[m
+[31m-      "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-5.0.1.tgz",[m
+[31m-      "integrity": "sha512-Fl79+wsLOZKoiU345KeEaWD0ik8WKRI5zm0YSPj2oF1Qr+BO7z0fco6GbUtqjoG1h4VI89PeKJnMsMMVQdKKTw=="[m
+[31m-    },[m
+     "brace-expansion": {[m
+       "version": "1.1.11",[m
+       "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz",[m
+[36m@@ -5240,11 +5244,6 @@[m
+       "resolved": "https://registry.npmjs.org/depd/-/depd-1.1.2.tgz",[m
+       "integrity": "sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak="[m
+     },[m
+[31m-    "dequal": {[m
+[31m-      "version": "2.0.2",[m
+[31m-      "resolved": "https://registry.npmjs.org/dequal/-/dequal-2.0.2.tgz",[m
+[31m-      "integrity": "sha512-q9K8BlJVxK7hQYqa6XISGmBZbtQQWVXSrRrWreHC94rMt1QL/Impruc+7p2CYSYuVIUr+YCt6hjrs1kkdJRTug=="[m
+[31m-    },[m
+     "des.js": {[m
+       "version": "1.0.1",[m
+       "resolved": "https://registry.npmjs.org/des.js/-/des.js-1.0.1.tgz",[m
+[36m@@ -10205,6 +10204,11 @@[m
+       "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz",[m
+       "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="[m
+     },[m
+[32m+[m[32m    "lodash-es": {[m
+[32m+[m[32m      "version": "4.17.21",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz",[m
+[32m+[m[32m      "integrity": "sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw=="[m
+[32m+[m[32m    },[m
+     "lodash._reinterpolate": {[m
+       "version": "3.0.0",[m
+       "resolved": "https://registry.npmjs.org/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz",[m
+[36m@@ -13098,24 +13102,25 @@[m
+       }[m
+     },[m
+     "react-bootstrap": {[m
+[31m-      "version": "1.6.1",[m
+[31m-      "resolved": "https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-1.6.1.tgz",[m
+[31m-      "integrity": "sha512-ojEPQ6OtyIMdLg0Smofk+85PKN6MLKQX3bU0Vwmok/4yNa8DQ2vCGhO2IgHJvT+ERQZ4X+gAQcdn6msAHSwLBg==",[m
+[32m+[m[32m      "version": "1.6.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-1.6.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-PaeOGeRC2+JH9Uf1PukJgXcIpfGlrKKHEBZIArymjenYzSJ/RhO2UdNX+e7nalsCFFZLRRgQ0/FKkscW2LmmRg==",[m
+       "requires": {[m
+[31m-        "@babel/runtime": "^7.14.0",[m
+[32m+[m[32m        "@babel/runtime": "^7.13.8",[m
+         "@restart/context": "^2.1.4",[m
+         "@restart/hooks": "^0.3.26",[m
+[32m+[m[32m        "@types/classnames": "^2.2.10",[m
+         "@types/invariant": "^2.2.33",[m
+         "@types/prop-types": "^15.7.3",[m
+[31m-        "@types/react": ">=16.14.8",[m
+[32m+[m[32m        "@types/react": ">=16.9.35",[m
+         "@types/react-transition-group": "^4.4.1",[m
+         "@types/warning": "^3.0.0",[m
+[31m-        "classnames": "^2.3.1",[m
+[31m-        "dom-helpers": "^5.2.1",[m
+[32m+[m[32m        "classnames": "^2.2.6",[m
+[32m+[m[32m        "dom-helpers": "^5.1.2",[m
+         "invariant": "^2.2.4",[m
+         "prop-types": "^15.7.2",[m
+         "prop-types-extra": "^1.1.0",[m
+[31m-        "react-overlays": "^5.0.1",[m
+[32m+[m[32m        "react-overlays": "^5.0.0",[m
+         "react-transition-group": "^4.4.1",[m
+         "uncontrollable": "^7.2.1",[m
+         "warning": "^4.0.3"[m
+[36m@@ -13438,9 +13443,9 @@[m
+       }[m
+     },[m
+     "react-transition-group": {[m
+[31m-      "version": "4.4.2",[m
+[31m-      "resolved": "https://registry.npmjs.org/react-transition-group/-/react-transition-group-4.4.2.tgz",[m
+[31m-      "integrity": "sha512-/RNYfRAMlZwDSr6z4zNKV6xu53/e2BuaBbGhbyYIXTrmgu/bGHzmqOs7mJSJBHy9Ud+ApHx3QjrkKSp1pxvlFg==",[m
+[32m+[m[32m      "version": "4.4.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/react-transition-group/-/react-transition-group-4.4.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-Djqr7OQ2aPUiYurhPalTrVy9ddmFCCzwhqQmtN+J3+3DzLO209Fdr70QrN8Z3DsglWql6iY1lDWAfpFiBtuKGw==",[m
+       "requires": {[m
+         "@babel/runtime": "^7.5.5",[m
+         "dom-helpers": "^5.0.1",[m
+[1mdiff --git a/package.json b/package.json[m
+[1mindex 6ea655e..0269d24 100644[m
+[1m--- a/package.json[m
+[1m+++ b/package.json[m
+[36m@@ -6,10 +6,9 @@[m
+     "@testing-library/jest-dom": "^5.12.0",[m
+     "@testing-library/react": "^11.2.7",[m
+     "@testing-library/user-event": "^12.8.3",[m
+[31m-    "bootstrap": "^5.0.1",[m
+     "node-sass": "^6.0.0",[m
+     "react": "^17.0.2",[m
+[31m-    "react-bootstrap": "^1.6.1",[m
+[32m+[m[32m    "react-bootstrap": "^1.6.0",[m
+     "react-dom": "^17.0.2",[m
+     "react-redux": "^7.2.4",[m
+     "react-router-dom": "^5.2.0",[m
+[1mdiff --git a/src/App.js b/src/App.js[m
+[1mindex 6f76ed5..7b31500 100644[m
+[1m--- a/src/App.js[m
+[1m+++ b/src/App.js[m
+[36m@@ -1,13 +1,12 @@[m
+[31m-import React from "react";[m
+[31m-import { ThemeProvider } from "styled-components";[m
+[31m-import GlobalStyle from "./styles/GlobalStyle";[m
+[31m-import { BrowserRouter, Switch, Route } from "react-router-dom";[m
+[31m-import NavRoute from "./components/Nav";[m
+[31m-import HomePage from "./pages/HomePage";[m
+[31m-import LoginPage from "./pages/LoginPage";[m
+[31m-import NotFoundPage from "./pages/NotFoundPage";[m
+[31m-import HealthBlogPage from "./pages/HealthyBlogPage";[m
+[31m-import "./bootstrap-4.3.1-dist/css/bootstrap.min.css";[m
+[32m+[m[32mimport React from 'react';[m
+[32m+[m[32mimport {ThemeProvider} from 'styled-components';[m
+[32m+[m[32mimport GlobalStyle from './styles/GlobalStyle';[m
+[32m+[m[32mimport {BrowserRouter, Switch, Route} from 'react-router-dom';[m
+[32m+[m[32mimport NavRoute from './components/Nav';[m
+[32m+[m[32mimport HomePage from './pages/HomePage';[m
+[32m+[m[32mimport LoginPage from './pages/LoginPage';[m
+[32m+[m[32mimport NotFoundPage from './pages/NotFoundPage';[m
+[32m+[m[32mimport HealthBlogPage from './pages/HealthyBlogPage';[m
+ [m
+ const theme = {};[m
+ [m
+[1mdiff --git a/src/bootstrap-4.3.1-dist/css/bootstrap-grid.css b/src/bootstrap-4.3.1-dist/css/bootstrap-grid.css[m
+[1mdeleted file mode 100644[m
+[1mindex 68b84f8..0000000[m
+[1m--- a/src/bootstrap-4.3.1-dist/css/bootstrap-grid.css[m
+[1m+++ /dev/null[m
+[36m@@ -1,3719 +0,0 @@[m
+[31m-/*![m
+[31m- * Bootstrap Grid v4.3.1 (https://getbootstrap.com/)[m
+[31m- * Copyright 2011-2019 The Bootstrap Authors[m
+[31m- * Copyright 2011-2019 Twitter, Inc.[m
+[31m- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)[m
+[31m- */[m
+[31m-html {[m
+[31m-  box-sizing: border-box;[m
+[31m-  -ms-overflow-style: scrollbar;[m
+[31m-}[m
+[31m-[m
+[31m-*,[m
+[31m-*::before,[m
+[31m-*::after {[m
+[31m-  box-sizing: inherit;[m
+[31m-}[m
+[31m-[m
+[31m-.container {[m
+[31m-  width: 100%;[m
+[31m-  padding-right: 15px;[m
+[31m-  padding-left: 15px;[m
+[31m-  margin-right: auto;[m
+[31m-  margin-left: auto;[m
+[31m-}[m
+[31m-[m
+[31m-@media (min-width: 576px) {[m
+[31m-  .container {[m
+[31m-    max-width: 540px;[m
+[31m-  }[m
+[31m-}[m
+[31m-[m
+[31m-@media (min-width: 768px) {[m
+[31m-  .container {[m
+[31m-    max-width: 720px;[m
+[31m-  }[m
+[31m-}[m
+[31m-[m
+[31m-@media (min-width: 992px) {[m
+[31m-  .container {[m
+[31m-    max-width: 960px;[m
+[31m-  }[m
+[31m-}[m
+[31m-[m
+[31m-@media (min-width: 1200px) {[m
+[31m-  .container {[m
+[31m-    max-width: 1140px;[m
+[31m-  }[m
+[31m-}[m
+[31m-[m
+[31m-.container-fluid {[m
+[31m-  width: 100%;[m
+[31m-  padding-right: 15px;[m
+[31m-  padding-left: 15px;[m
+[31m-  margin-right: auto;[m
+[31m-  margin-left: auto;[m
+[31m-}[m
+[31m-[m
+[31m-.row {[m
+[31m-  display: -ms-flexbox;[m
+[31m-  display: flex;[m
+[31m-  -ms-flex-wrap: wrap;[m
+[31m-  flex-wrap: wrap;[m
+[31m-  margin-right: -15px;[m
+[31m-  margin-left: -15px;[m
+[31m-}[m
+[31m-[m
+[31m-.no-gutters {[m
+[31m-  margin-right: 0;[m
+[31m-  margin-left: 0;[m
+[31m-}[m
+[31m-[m
+[31m-.no-gutters > .col,[m
+[31m-.no-gutters > [class*="col-"] {[m
+[31m-  padding-right: 0;[m
+[31m-  padding-left: 0;[m
+[31m-}[m
+[31m-[m
+[31m-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,[m
+[31m-.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,[m
+[31m-.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,[m
+[31m-.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,[m
+[31m-.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,[m
+[31m-.col-xl-auto {[m
+[31m-  position: relative;[m
+[31m-  width: 100%;[m
+[31m-  padding-right: 15px;[m
+[31m-  padding-left: 15px;[m
+[31m-}[m
+[31m-[m
+[31m-.col {[m
+[31m-  -ms-flex-preferred-size: 0;[m
+[31m-  flex-basis: 0;[m
+[31m-  -ms-flex-positive: 1;[m
+[31m-  flex-grow: 1;[m
+[31m-  max-width: 100%;[m
+[31m-}[m
+[31m-[m
+[31m-.col-auto {[m
+[31m-  -ms-flex: 0 0 auto;[m
+[31m-  flex: 0 0 auto;[m
+[31m-  width: auto;[m
+[31m-  max-width: 100%;[m
+[31m-}[m
+[31m-[m
+[31m-.col-1 {[m
+[31m-  -ms-flex: 0 0 8.333333%;[m
+[31m-  flex: 0 0 8.333333%;[m
+[31m-  max-width: 8.333333%;[m
+[31m-}[m
+[31m-[m
+[31m-.col-2 {[m
+[31m-  -ms-flex: 0 0 16.666667%;[m
+[31m-  flex: 0 0 16.666667%;[m
+[31m-  max-width: 16.666667%;[m
+[31m-}[m
+[31m-[m
+[31m-.col-3 {[m
+[31m-  -ms-flex: 0 0 25%;[m
+[31m-  flex: 0 0 25%;[m
+[31m-  max-width: 25%;[m
+[31m-}[m
+[31m-[m
+[31m-.col-4 {[m
+[31m-  -ms-flex: 0 0 33.333333%;[m
+[31m-  flex: 0 0 33.333333%;[m
+[31m-  max-width: 33.333333%;[m
+[31m-}[m
+[31m-[m
+[31m-.col-5 {[m
+[31m-  -ms-flex: 0 0 41.666667%;[m
+[31m-  flex: 0 0 41.666667%;[m
+[31m-  max-width: 41.666667%;[m
+[31m-}[m
+[31m-[m
+[31m-.col-6 {[m
+[31m-  -ms-flex: 0 0 50%;[m
+[31m-  flex: 0 0 50%;[m
+[31m-  max-width: 50%;[m
+[31m-}[m
+[31m-[m
+[31m-.col-7 {[m
+[31m-  -ms-flex: 0 0 58.333333%;[m
+[31m-  flex: 0 0 58.333333%;[m
+[31m-  max-width: 58.333333%;[m
+[31m-}[m
+[31m-[m
+[31m-.col-8 {[m
+[31m-  -ms-flex: 0 0 66.666667%;[m
+[31m-  flex: 0 0 66.666667%;[m
+[31m-  max-width: 66.666667%;[m
+[31m-}[m
+[31m-[m
+[31m-.col-9 {[m
+[31m-  -ms-flex: 0 0 75%;[m
+[31m-  flex: 0 0 75%;[m
+[31m-  max-width: 75%;[m
+[31m-}[m
+[31m-[m
+[31m-.col-10 {[m
+[31m-  -ms-flex: 0 0 83.333333%;[m
+[31m-  flex: 0 0 83.333333%;[m
+[31m-  max-width: 83.333333%;[m
+[31m-}[m
+[31m-[m
+[31m-.col-11 {[m
+[31m-  -ms-flex: 0 0 91.666667%;[m
+[31m-  flex: 0 0 91.666667%;[m
+[31m-  max-width: 91.666667%;[m
+[31m-}[m
+[31m-[m
+[31m-.col-12 {[m
+[31m-  -ms-flex: 0 0 100%;[m
+[31m-  flex: 0 0 100%;[m
+[31m-  max-width: 100%;[m
+[31m-}[m
+[31m-[m
+[31m-.order-first {[m
+[31m-  -ms-flex-order: -1;[m
+[31m-  order: -1;[m
+[31m-}[m
+[31m-[m
+[31m-.order-last {[m
+[31m-  -ms-flex-order: 13;[m
+[31m-  order: 13;[m
+[31m-}[m
+[31m-[m
+[31m-.order-0 {[m
+[31m-  -ms-flex-order: 0;[m
+[31m-  order: 0;[m
+[31m-}[m
+[31m-[m
+[31m-.order-1 {[m
+[31m-  -ms-flex-order: 1;[m
+[31m-  order: 1;[m
+[31m-}[m
+[31m-[m
+[31m-.order-2 {[m
+[31m-  -ms-flex-order: 2;[m
+[31m-  order: 2;[m
+[31m-}[m
+[31m-[m
+[31m-.order-3 {[m
+[31m-  -ms-flex-order: 3;[m
+[31m-  order: 3;[m
+[31m-}[m
+[31m-[m
+[31m-.order-4 {[m
+[31m-  -ms-flex-order: 4;[m
+[31m-  order: 4;[m
+[31m-}[m
+[31m-[m
+[31m-.order-5 {[m
+[31m-  -ms-flex-order: 5;[m
+[31m-  order: 5;[m
+[31m-}[m
+[31m-[m
+[31m-.order-6 {[m
+[31m-  -ms-flex-order: 6;[m
+[31m-  order: 6;[m
+[31m-}[m
+[31m-[m
+[31m-.order-7 {[m
+[31m-  -ms-flex-order: 7;[m
+[31m-  order: 7;[m
+[31m-}[m
+[31m-[m
+[31m-.order-8 {[m
+[31m-  -ms-flex-order: 8;[m
+[31m-  order: 8;[m
+[31m-}[m
+[31m-[m
+[31m-.order-9 {[m
+[31m-  -ms-flex-order: 9;[m
+[31m-  order: 9;[m
+[31m-}[m
+[31m-[m
+[31m-.order-10 {[m
+[31m-  -ms-flex-order: 10;[m
+[31m-  order: 10;[m
+[31m-}[m
+[31m-[m
+[31m-.order-11 {[m
+[31m-  -ms-flex-order: 11;[m
+[31m-  order: 11;[m
+[31m-}[m
+[31m-[m
+[31m-.order-12 {[m
+[31m-  -ms-flex-order: 12;[m
+[31m-  order: 12;[m
+[31m-}[m
+[31m-[m
+[31m-.offset-1 {[m
+[31m-  margin-left: 8.333333%;[m
+[31m-}[m
+[31m-[m
+[31m-.offset-2 {[m
+[31m-  margin-left: 16.666667%;[m
+[31m-}[m
+[31m-[m
+[31m-.offset-3 {[m
+[31m-  margin-left: 25%;[m
+[31m-}[m
+[31m-[m
+[31m-.offset-4 {[m
+[31m-  margin-left: 33.333333%;[m
+[31m-}[m
+[31m-[m
+[31m-.offset-5 {[m
+[31m-  margin-left: 41.666667%;[m
+[31m-}[m
+[31m-[m
+[31m-.offset-6 {[m
+[31m-  margin-left: 50%;[m
+[31m-}[m
+[31m-[m
+[31m-.offset-7 {[m
+[31m-  margin-left: 58.333333%;[m
+[31m-}[m
+[31m-[m
+[31m-.offset-8 {[m
+[31m-  margin-left: 66.666667%;[m
+[31m-}[m
+[31m-[m
+[31m-.offset-9 {[m
+[31m-  margin-left: 75%;[m
+[31m-}[m
+[31m-[m
+[31m-.offset-10 {[m
+[31m-  margin-left: 83.333333%;[m
+[31m-}[m
+[31m-[m
+[31m-.offset-11 {[m
+[31m-  margin-left: 91.666667%;[m
+[31m-}[m
+[31m-[m
+[31m-@media (min-width: 576px) {[m
+[31m-  .col-sm {[m
+[31m-    -ms-flex-preferred-size: 0;[m
+[31m-    flex-basis: 0;[m
+[31m-    -ms-flex-positive: 1;[m
+[31m-    flex-grow: 1;[m
+[31m-    max-width: 100%;[m
+[31m-  }[m
+[31m-  .col-sm-auto {[m
+[31m-    -ms-flex: 0 0 auto;[m
+[31m-    flex: 0 0 auto;[m
+[31m-    width: auto;[m
+[31m-    max-width: 100%;[m
+[31m-  }[m
+[31m-  .col-sm-1 {[m
+[31m-    -ms-flex: 0 0 8.333333%;[m
+[31m-    flex: 0 0 8.333333%;[m
+[31m-    max-width: 8.333333%;[m
+[31m-  }[m
+[31m-  .col-sm-2 {[m
+[31m-    -ms-flex: 0 0 16.666667%;[m
+[31m-    flex: 0 0 16.666667%;[m
+[31m-    max-width: 16.666667%;[m
+[31m-  }[m
+[31m-  .col-sm-3 {[m
+[31m-    -ms-flex: 0 0 25%;[m
+[31m-    flex: 0 0 25%;[m
+[31m-    max-width: 25%;[m
+[31m-  }[m
+[31m-  .col-sm-4 {[m
+[31m-    -ms-flex: 0 0 33.333333%;[m
+[31m-    flex: 0 0 33.333333%;[m
+[31m-    max-width: 33.333333%;[m

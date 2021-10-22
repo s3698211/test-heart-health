@@ -1,0 +1,13 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - 'run'
+  - 'deploy'
+  - 'cloudrunservice'
+  - '--image'
+  - 'australia-southeast1-docker.pkg.dev/ci-cd-heart-health/heart-health-docker-repo/heart-health-web-ui-image@sha256:e8bb56578e988897d09e8c109a83d90c7323619ab95aff0d99edb0f98d04146c'
+  - '--region'
+  - 'australia-southeast1'
+  - '--platform'
+  - 'managed'
+  - '--allow-unauthenticated'
